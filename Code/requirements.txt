@@ -1,0 +1,12 @@
+# AI Exercise Assistant — dependencies
+# Python 3.9+ required
+
+tensorflow>=2.13.0       # Pose estimation via TensorFlow Lite (MoveNet Thunder)
+opencv-python>=4.8.0     # Camera capture and image preprocessing
+numpy>=1.24.0            # Numerical operations and array handling
+pillow>=10.0.0           # Image loading and Tkinter-compatible display
+matplotlib>=3.7.0        # Analytics charts (line, bar, radar)
+pandas>=2.0.0            # Session data loading and manipulation
+
+# Standard library (no install needed):
+# tkinter, threading, queue, csv, datetime, os, time
