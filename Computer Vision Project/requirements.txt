@@ -1,0 +1,12 @@
+# Cat vs Dog Image Classifier — dependencies
+# Python 3.9+ required
+# Recommended: run on Google Colab with a T4 GPU (free tier)
+
+torch>=2.0.0             # Core deep learning framework and training loop
+torchvision>=0.15.0      # ResNet50 pretrained model and image transforms
+datasets>=4.0.0          # Hugging Face datasets library for loading Cats vs Dogs
+Pillow>=10.0.0           # Image loading and preprocessing
+matplotlib>=3.7.0        # Training curve and sample image visualisation
+numpy>=1.24.0            # Numerical operations and array handling
+tqdm>=4.65.0             # Progress bars during training epochs
+requests>=2.32.0         # HTTP requests for image loading from dataset URLs
